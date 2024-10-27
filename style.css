@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 15px;
+}
+.container{
+    /* margin: 20px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+#card{
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnsDiv{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+body{
+    background-color: rgb(218, 246, 255);
+}
+.addToCart-btn{
+    background-color: lightskyblue;
+}
+.addToCart-btn:hover{
+    background-color: lightskyblue;
+}
+.price-span{
+    color: red;
+}
+
+
+/* Cart */
+
+.btn-span{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    padding: 0;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.plus-minus-btn{
+    background-color: rgb(173, 224, 255);
+    padding: 5px 25px;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 5px 30px;
+}
+.quantity{
+    padding: 0 8px;
+}
