@@ -13,10 +13,12 @@ convert.map((item , index) => {
     <h4>Price: <span class="price-span">$${item.price}</span></h4>
     <h4>Quantity: <span class = "btn-span">
     <button class = "btn plus-minus-btn" onclick = "plus(${index})">+</button>
-    <span class = "quantity" id = "quantity-${index}"> 1 </span>
+    <span class = "quantity" id = "quantity-${index}"> ${item.quantity} </span>
     <button class = "btn plus-minus-btn" onclick = "minus(${index})">-</button>
     </span></h4>
-    <button class = "btn addToCart-btn" onclick = "buy()">Order</button>
+    <div class = "d-flex gap-2">
+    <button class = "btn btn-success" onclick = "buy(${index})">Order</button>
+    <button class="btn btn-danger" onclick="deleteItem()">Delete</button></div>
     </div>`
 })
 
@@ -27,8 +29,14 @@ function plus(index) {
 
 function minus(index) {
     const quantity = document.getElementById(`quantity-${index}`);
-    if (quantity.innerHTML > 1) {
         quantity.innerHTML--;
+
+    if(quantity.innerHTML == 0){
+        const collectData = localStorage.getItem("mobile");
+        const cart = JSON.parse(collectData);
+        cart.splice(index, 1);
+        localStorage.setItem("mobile", JSON.stringify(cart));
+        location.reload();
     }
 }
 
@@ -38,4 +46,12 @@ function buy() {
         title: "Order Placed!",
         timer: 1500
     });
+}
+
+function deleteItem(index) {
+    const collectData = localStorage.getItem("mobile");
+    const cart = JSON.parse(collectData);
+    cart.splice(index, 1);
+    localStorage.setItem("mobile", JSON.stringify(cart));
+    location.reload();
 }

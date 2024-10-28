@@ -58,6 +58,9 @@ body{
     border-radius: 15px;
     padding: 5px 30px;
 }
+.plus-minus-btn:hover{
+    background-color: rgb(173, 224, 255);
+}
 .quantity{
     padding: 0 8px;
 }
