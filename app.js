@@ -6,7 +6,7 @@ const phones = [
       rom: 128,
       camera: "64 megapixel",
       price: 799,
-      image: "/assests/samsung-gs21.jpg"
+      image: "./samsung-gs21.jpg"
     },
     {
       brand: "Apple",
@@ -15,7 +15,7 @@ const phones = [
       rom: 128,
       camera: "12 megapixel",
       price: 799,
-      image: "/assests/iphone-13.png"
+      image: "./iphone-13.png"
     },
     {
       brand: "OnePlus",
@@ -24,7 +24,7 @@ const phones = [
       rom: 256,
       camera: "48 megapixel",
       price: 729,
-      image: "/assests/oneplus-9.png"
+      image: "./oneplus-9.png"
     },
     {
       brand: "Google",
@@ -33,7 +33,7 @@ const phones = [
       rom: 128,
       camera: "50 megapixel",
       price: 599,
-      image: "/assests/google-p6.jpg"
+      image: "./google-p6.jpg"
     },
     {
       brand: "Xiaomi",
@@ -42,7 +42,7 @@ const phones = [
       rom: 256,
       camera: "108 megapixel",
       price: 749,
-      image: "/assests/xiaomi-mi11.png"
+      image: "./xiaomi-mi11.png"
     },
     {
       brand: "Sony",
@@ -51,7 +51,7 @@ const phones = [
       rom: 256,
       camera: "12 megapixel",
       price: 1299,
-      image: "/assests/sony-x1.jpg"
+      image: "./sony-x1.jpg"
     },
     {
       brand: "Oppo",
@@ -60,7 +60,7 @@ const phones = [
       rom: 256,
       camera: "50 megapixel",
       price: 1149,
-      image: "/assests/oppo-fx3-pro.jpg"
+      image: "./oppo-fx3-pro.jpg"
     },
     {
       brand: "Vivo",
@@ -69,7 +69,7 @@ const phones = [
       rom: 256,
       camera: "48 megapixel",
       price: 999,
-      image: "/assests/vivo-x60-pro.png"
+      image: "./vivo-x60-pro.png"
     },
     {
       brand: "Nokia",
@@ -78,7 +78,7 @@ const phones = [
       rom: 128,
       camera: "48 megapixel",
       price: 299,
-      image: "/assests/nokia-g50.jpg"
+      image: "./nokia-g50.jpg"
     },
     {
       brand: "Motorola",
@@ -87,7 +87,7 @@ const phones = [
       rom: 256,
       camera: "108 megapixel",
       price: 599,
-      image: "/assests/motorola-e20.jpg"
+      image: "./motorola-e20.jpg"
     },
     {
       brand: "Realme",
@@ -96,7 +96,7 @@ const phones = [
       rom: 256,
       camera: "64 megapixel",
       price: 499,
-      image: "/assests/realme-gt.avif"
+      image: "./realme-gt.avif"
     },
     {
       brand: "Asus",
@@ -105,7 +105,7 @@ const phones = [
       rom: 512,
       camera: "64 megapixel",
       price: 999,
-      image: "/assests/asus-rog5.jpg"
+      image: "./asus-rog5.jpg"
     },
     {
       brand: "HTC",
@@ -114,7 +114,7 @@ const phones = [
       rom: 128,
       camera: "48 megapixel",
       price: 399,
-      image: "/assests/HTCDesire21Pro.jpg"
+      image: "./HTCDesire21Pro.jpg"
     },
     {
       brand: "Huawei",
@@ -123,7 +123,7 @@ const phones = [
       rom: 256,
       camera: "50 megapixel",
       price: 899,
-      image: "/assests/huawei-p40-pro.jpg"
+      image: "./huawei-p40-pro.jpg"
     },
     {
       brand: "LG",
@@ -132,7 +132,7 @@ const phones = [
       rom: 256,
       camera: "64 megapixel",
       price: 999,
-      image: "/assests/lg-wing.avif"
+      image: "./lg-wing.avif"
     },
     {
       brand: "ZTE",
@@ -141,7 +141,7 @@ const phones = [
       rom: 128,
       camera: "64 megapixel",
       price: 399,
-      image: "/assests/zte-axon20.jpg"
+      image: "./zte-axon20.jpg"
     },
     {
       brand: "BlackBerry",
@@ -150,7 +150,7 @@ const phones = [
       rom: 64,
       camera: "12 megapixel",
       price: 649,
-      image: "/assests/blackberry-key2.png"
+      image: "./blackberry-key2.png"
     },
     {
       brand: "Lenovo",
@@ -159,7 +159,7 @@ const phones = [
       rom: 512,
       camera: "64 megapixel",
       price: 999,
-      image: "/assests/lenovo-ld2.jpg"
+      image: "./lenovo-ld2.jpg"
     },
     {
       brand: "Alcatel",
@@ -168,7 +168,7 @@ const phones = [
       rom: 64,
       camera: "48 megapixel",
       price: 199,
-      image: "/assests/alcatel-3l.png"
+      image: "./alcatel-3l.png"
     },
     {
       brand: "TCL",
@@ -177,7 +177,7 @@ const phones = [
       rom: 128,
       camera: "64 megapixel",
       price: 449,
-      image: "/assests/tcl-10-pro.jpg"
+      image: "./tcl-10-pro.jpg"
     },
 ];
 
