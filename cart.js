@@ -49,9 +49,22 @@ function buy() {
 }
 
 function deleteItem(index) {
-    const collectData = localStorage.getItem("mobile");
-    const cart = JSON.parse(collectData);
-    cart.splice(index, 1);
-    localStorage.setItem("mobile", JSON.stringify(cart));
-    location.reload();
+
+    Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+            const collectData = localStorage.getItem("mobile");
+            const cart = JSON.parse(collectData);
+            cart.splice(index, 1);
+            localStorage.setItem("mobile", JSON.stringify(cart));
+            location.reload();
+        }
+      });
 }
